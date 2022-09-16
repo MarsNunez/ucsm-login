@@ -1,13 +1,133 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  background-image: url('https://www.ucsm.edu.pe/wp-content/uploads/2019/12/UCSM-Un-d%C3%ADa-como-hoy-hace-58-a%C3%B1os--940x480.jpg');
+  height: 100%;
+  font-family: 'Arial', Courier, monospace;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-container, .option-container {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20vh;
+  background-color: rgba(221, 221, 221, 0.725);
+
+  padding: 30px 50px;
+  border-radius: 5px;
+}
+
+.option-container {
+  max-width: 673px;
+
+}
+
+.login-container h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 200px;
+
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: solid 1px;
+  padding: 10px 15px;
+  font-size: 17px;
+}
+
+.login-container .button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+}
+
+
+.login-container a, .option-container a {
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+img.logo {
+  width: 200px;
+}
+
+.option-container h1{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* .option-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+.box {
+  border: 1px solid;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 15px;
+  border-radius: 5px;
+  background-color: #a6f44c94;
+  margin: 10px 0;
+  cursor: pointer;
+  width: 100px;
+}
+
+.box i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.box h3 {
+  font-size: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.error {
+  border: 2px solid rgb(101, 0, 0);;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  margin-top: 15px;
+  background-color: rgb(216, 75, 75);
+  color: rgb(101, 0, 0);
+}
+
+.error-login {
+  border: 2px solid rgb(101, 0, 0);;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  margin-top: 15px;
+  background-color: rgb(223, 111, 111);
+  color: rgb(101, 0, 0);
+}
+
+.contenedor .box {
+  margin: 0 10px 20px;
+}
+
+.xy a{
+  text-decoration: none;
 }
